@@ -6,11 +6,13 @@ public class Main{
         cuenta1.consignar(200);
         System.out.println("El saldo de la cuenta es:" + cuenta1.getSaldo());
 
-        Notificacion[] notificaciones = new Notificacion[2];
+        Notificacion[] notificaciones = new Notificacion[4];
         notificaciones [0] = new NotificacionCorreo("Sebas");
         notificaciones [1] = new NotificacionSMS("Juan");
+        notificaciones [2] = new NotificacionMessenger("Cossio")
 
         notificaciones[0].enviarMensaje("Hola mi amigo");
-        notificaciones[1].enviarMensaje("Hola bro");
+        notificaciones[2].enviarMensaje("Hola bro");
+        notificaciones[3].enviarMensaje("Hi bro");
     }
 }
