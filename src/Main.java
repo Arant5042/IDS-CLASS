@@ -12,7 +12,7 @@ public class Main{
         notificaciones [2] = new NotificacionMessenger("Cossio")
 
         notificaciones[0].enviarMensaje("Hola mi amigo");
-        notificaciones[2].enviarMensaje("Hola bro");
-        notificaciones[3].enviarMensaje("Hi bro");
+        notificaciones[1].enviarMensaje("Hola bro");
+        notificaciones[2].enviarMensaje("Hi bro");
     }
 }
