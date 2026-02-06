@@ -9,10 +9,12 @@ public class Main{
         Notificacion[] notificaciones = new Notificacion[4];
         notificaciones [0] = new NotificacionCorreo("Sebas");
         notificaciones [1] = new NotificacionSMS("Juan");
-        notificaciones [2] = new NotificacionMessenger("Cossio");
+        notificaciones [2] = new NotificacionWhatsApp(("Esteban"));
+        notificaciones [3] = new NotificacionMessenger("Cossio");
 
         notificaciones[0].enviarMensaje("Hola mi amigo");
         notificaciones[1].enviarMensaje("Hola bro");
-        notificaciones[2].enviarMensaje("Hi bro");
+        notificaciones[2].enviarMensaje("Buenas Tarde");
+        notificaciones[3].enviarMensaje("Hi bro");
     }
 }
