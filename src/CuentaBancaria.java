@@ -33,7 +33,7 @@ public class CuentaBancaria
 
     public void retirar(int valorARetirar)
     {
-        if (valorARetirar >= 0 )
+        if (valorARetirar <= 0 )
         {
             throw new IllegalStateException("No se puede retirar más de lo obtenido");
         }
